@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00021e;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding: 1rem;
+  border: 1px solid #00089b;
+  border-radius: 0.5rem;
+  max-width: 40rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #d6d6d6;
+}
+
+h2 {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+form input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #00089b;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #00089b;
+  background-color: #00089b;
+  color: #d9d9d9;
+  cursor: pointer;
+}
+
+.delete-all {
+  margin-top: 1rem;
+  background: #ef4444;
+  align-self: flex-start;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.table-wrapper {
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #00089b;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid #00089b;
+}
+
+th {
+  position: sticky;
+  background-color: #00089b;
+  padding-block: 1rem;
+  color: white;
+}
+
+.status-late {
+  color: #b91c1c;
+  font-weight: bold;
+}
+.status-ontime {
+  color: #129c32;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
